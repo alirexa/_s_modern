@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
 _s_modern
 ===
 
-This theme is a fork of [_s](https://github.com/Automattic/_s) which [WPGulp](https://github.com/ahmadawais/WPGulp) is intergrated to.
+This theme is a fork of [_S](https://github.com/Automattic/_s) which [WPGulp](https://github.com/ahmadawais/WPGulp) is intergrated to.
 
 Installation
 ---------------
@@ -42,7 +41,7 @@ $ npm install
 
 ### Available CLI commands
 
-After the installation of npm packages, you can start WPGulp with this command:
+After the installation of npm packages, you can start Browser-Sync and files watch —WPGulp— using this command:
 ```sh
 $ npm start
 ```
