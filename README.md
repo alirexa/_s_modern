@@ -2,7 +2,8 @@
 _s_modern
 ===
 
-This theme is a fork of [_S](https://github.com/Automattic/_s) which [WPGulp](https://github.com/ahmadawais/WPGulp) is intergrated to.
+This theme is a fork of [_S](https://github.com/Automattic/_s) with [Barbajs](https://github.com/barbajs/barba) and [WPGulp](https://github.com/ahmadawais/WPGulp)intergrated to it.
+
 
 Installation
 ---------------
@@ -55,7 +56,7 @@ $ npm start
 ~~- `npm run compile:rtl` : generates an RTL stylesheet.~~
 ~~- `npm run watch` : watches all SASS files and recompiles them to css when they change.~~
 ~~- `npm run lint:scss` : checks all SASS files against [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/).~~
-~~- `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
+~~- `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).~~
 ~~- `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.~~
 
 

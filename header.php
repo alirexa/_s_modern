@@ -8,6 +8,12 @@
  *
  * @package _s
  */
+$args = wp_parse_args(
+    $args,
+    array(
+        'barba_namespace'=> 'default',
+    )
+);
 
 ?>
 <!doctype html>
@@ -20,9 +26,9 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> data-barba="wrapper">
 <?php wp_body_open(); ?>
-<div id="page" class="site">
+<div id="page" class="site" data-barba="container" data-barba-namespace="<?php echo esc_html($args['barba_namespace']) ?>>
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 	<header id="masthead" class="site-header">
