@@ -2,7 +2,7 @@
 _s_modern
 ===
 
-This theme is a fork of [_S](https://github.com/Automattic/_s) with [Barbajs](https://github.com/barbajs/barba) and [WPGulp](https://github.com/ahmadawais/WPGulp)intergrated to it.
+This theme is a fork of [_S](https://github.com/Automattic/_s) with [Barbajs](https://github.com/barbajs/barba) and [WPGulp](https://github.com/ahmadawais/WPGulp) intergrated to it.
 
 
 Installation
@@ -29,7 +29,7 @@ Clone or download this repository, change its name to something else (like, say,
 Then, update the stylesheet header in `style.scss`, the links in `footer.php` with your own information and rename `_s.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
 
 #### WPGulp configuration
-change `projectURL` varialble value to your local address.
+Change `projectURL` variable in `wpgulp.config.js` to your local address.
 
 ### Setup
 
