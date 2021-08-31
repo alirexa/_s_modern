@@ -35,6 +35,12 @@ Change `projectURL` variable in `wpgulp.config.js` to your local address.
 
 To start using all the tools that come with `_s`  you need to install the necessary Node.js and Composer dependencies :
 
+⚠️ Keep in mind, this code works with node v14 (v14.17.4) and you may ran into errors and problems if you use another version (specially on Arm64 processors, ie Apple M1), so swith your node version before installation:
+```sh
+$ nvm use 14
+```
+
+And then you should be able to install the dependencies with no problem
 ```sh
 $ composer install
 $ npm install
