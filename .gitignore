@@ -41,15 +41,6 @@ Thumbs.db
 **/.sass-cache
 **/.sass-cache/*
 **/.map
-style.css
-style.min.css
-style-rtl.css
-woocommerce.css
-
-# JS #
-##########
-assets/js/custom.js
-assets/js/vendor.js
 
 # Composer #
 ##########

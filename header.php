@@ -28,7 +28,7 @@ $args = wp_parse_args(
 
 <body <?php body_class(); ?> data-barba="wrapper">
 <?php wp_body_open(); ?>
-<div id="page" class="site" data-barba="container" data-barba-namespace="<?php echo esc_html($args['barba_namespace']) ?>>
+<div id="page" class="site" data-barba="container" data-barba-namespace="<?php echo esc_html($args['barba_namespace']) ?>">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 	<header id="masthead" class="site-header">
